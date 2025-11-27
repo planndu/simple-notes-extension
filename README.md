@@ -4,12 +4,19 @@ A simple browser extension for quick note-taking. Perfect for writing down ideas
 ## Features
 
 📝 Quick Note Taking - Simple textarea for fast note entry
+
 💾 Auto-Save Draft - Your in-progress note is automatically saved as you type
+
 🗂️ Saved Notes - View all your saved notes in a list
+
 🗑️ Easy Deletion - Remove notes with a single click
+
 ⌨️ Keyboard Shortcuts - Save notes quickly with Ctrl/Cmd + Enter
+
 📊 Character Counter - Track your text length in real-time
+
 🎨 Modern UI - Clean with smooth animations
+
 🔒 Privacy First - All data stored locally on your device
 
 ## Installation
@@ -32,13 +39,18 @@ Firefox: about:addons
 ### Browser Compatibility
 
 ✅ Chrome 88+
-✅ 109.0+
-✅ Edge 88+
-✅ Brave
-✅ Firefox 78+ (Manifest V3 support may vary)
-✅ Opera
-✅ Any Chromium-based browser
 
+✅ 109.0+
+
+✅ Edge 88+
+
+✅ Brave
+
+✅ Firefox 78+ (Manifest V3 support may vary)
+
+✅ Opera
+
+✅ Any Chromium-based browser
 
 
 ## Show Your Support
