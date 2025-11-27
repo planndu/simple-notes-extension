@@ -51,6 +51,9 @@ function isValidNote(note) {
   );
 }
 
+const noteInput = document.getElementById('noteInput');
+const charCount = document.getElementById('charCount');
+
 // Load notes and draft from storage
 chrome.storage.local.get(['notes', 'draftNote'], (result) => {
   const rawNotes = Array.isArray(result.notes) ? result.notes : [];
@@ -68,10 +71,6 @@ chrome.storage.local.get(['notes', 'draftNote'], (result) => {
   
   renderNotes();
 });
-
-// Character counter and auto-save draft
-const noteInput = document.getElementById('noteInput');
-const charCount = document.getElementById('charCount');
 
 noteInput.addEventListener('input', () => {
   const length = noteInput.value.length;
