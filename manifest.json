@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Planndu Notes Extension",
+  "version": "0.0.1",
+  "description": "A simple open source note taking extension. Capture ideas fast, save text, and stay organized with Planndu.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "planndu-notes@planndu.com",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "opt_in": [],
+        "telemetry": "none",
+        "experiments": "none"
+      },
+      "strict_min_version": "109.0"
+    }
+  },
+  "data_collection": {
+    "optional": [],
+    "required": []
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none';"
+  }
+}

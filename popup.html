@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Planndu Notes</h1>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="new-note">New Note</button>
+    <button class="tab" data-tab="saved-notes">Saved Notes</button>
+  </div>
+
+  <div class="content">
+    <div id="new-note" class="tab-content active">
+      <textarea id="noteInput" placeholder="Type your note here..."></textarea>
+      <div class="char-count"><span id="charCount">0</span> characters</div>
+      <button class="btn" id="saveNote">Save</button>
+    </div>
+
+    <div id="saved-notes" class="tab-content">
+      <div id="noteList" class="note-list"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    © <a href="https://planndu.com" target="_blank">Planndu.com</a> 2025
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
