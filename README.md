@@ -25,9 +25,13 @@ Available for Chrome, FireFox, Edge, Brave, or other Chromium browsers.
 Load the extension here locally here:
 
 Chrome: chrome://extensions/
+
 Edge: edge://extensions/
+
 Brave: brave://extensions/
+
 Firefox: about:addons
+
 
 ## Technical Details
 ### Storage
